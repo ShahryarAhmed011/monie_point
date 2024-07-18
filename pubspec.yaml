@@ -1,0 +1,103 @@
+name: monie_point
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # App Dependencies
+  flutter_bloc: ^8.1.2
+  easy_localization: ^3.0.3
+  meta: ^1.8.0
+  dio: 5.1.0
+  #    Infrastructure Dependencies
+  injectable: 2.1.0
+  get_it: 7.2.0
+  go_router: ^6.5.0
+  custom_refresh_indicator: ^2.0.1
+  easy_localization_loader: 1.0.1+1
+  shared_preferences: ^2.0.20
+  collection: ^1.17.0
+  permission_handler: ^10.2.0
+  path_provider: ^2.1.1
+  scroll_to_index: ^3.0.1
+
+  #  Presentation Dependencies
+  scrollable_positioned_list:
+  google_fonts: ^4.0.3
+  equatable: ^2.0.5
+  intl: ^0.18.0
+  pin_code_fields: ^8.0.1
+  flutter_secure_storage: ^8.0.0
+  open_file_plus: ^3.4.1
+  external_path: ^1.0.3
+  #Local Database
+  uuid: ^3.0.7
+  file_picker: ^6.0.0
+  photo_manager: ^2.7.2
+
+  #  Domain Dependencies
+  #  Data Dependencies
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.0
+  mockito:
+  flutter_custom_clippers: ^2.1.0
+  animated_text_kit: ^4.2.2
+  flutter_animate: ^4.5.0
+  flutter_staggered_grid_view: ^0.7.0
+  show_up_animation: ^2.0.0
+  visibility_detector: ^0.4.0+2
+  flutter_map:
+  latlong2:
+  url_launcher: ^6.3.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  injectable_generator: 2.1.4
+  build_runner: ^2.3.3
+  freezed: ^2.3.2
+  json_serializable: ^6.6.1
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/png/
+    - assets/images/svg/
+    - assets/images/jpg/
+    - assets/translations/
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-Italic.ttf
+          style: italic
